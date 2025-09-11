@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marti\\source\\repos\\billingApplication\\billingApplication.csproj": {}
+    "C:\\Users\\marti\\Desktop\\Nueva carpeta\\billingapplication\\billingApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marti\\source\\repos\\billingApplication\\billingApplication.csproj": {
+    "C:\\Users\\marti\\Desktop\\Nueva carpeta\\billingapplication\\billingApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marti\\source\\repos\\billingApplication\\billingApplication.csproj",
+        "projectUniqueName": "C:\\Users\\marti\\Desktop\\Nueva carpeta\\billingapplication\\billingApplication.csproj",
         "projectName": "billingApplication",
-        "projectPath": "C:\\Users\\marti\\source\\repos\\billingApplication\\billingApplication.csproj",
+        "projectPath": "C:\\Users\\marti\\Desktop\\Nueva carpeta\\billingapplication\\billingApplication.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marti\\source\\repos\\billingApplication\\obj\\",
+        "outputPath": "C:\\Users\\marti\\Desktop\\Nueva carpeta\\billingapplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

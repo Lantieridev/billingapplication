@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using BillingApplication.Domain.Entities;
 using BillingApplication.Data.Interfaces;
+using System.Runtime.InteropServices;
 
 namespace BillingApplication.Data.Repositories
 {
@@ -140,10 +141,11 @@ namespace BillingApplication.Data.Repositories
             parameters.Add("@Prefijo", "FACT");
             parameters.Add("@NextNumber", dbType: DbType.String, size: 20, direction: ParameterDirection.Output);
 
-            await connection.ExecuteAsync("sp_Facturas_GenerateNextNumber", parameters,
-                commandType: CommandType.StoredProcedure);
+            var ultimoNumero = await connection.QueryAsync
+                ("Select MAX(NumeroFactura) AS NumeroFactura FROM Facturas");
 
-            return parameters.Get<string>("@NextNumber");
+            return "FACT-2025-"+((int.Parse(ultimoNumero.FirstOrDefault().NumeroFactura.Substring(10)))+1).ToString();
+
         }
 
         public async Task<bool> InvoiceNumberExistsAsync(string invoiceNumber)
