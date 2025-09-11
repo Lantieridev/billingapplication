@@ -25,9 +25,7 @@ The application follows the **Repository Pattern** to separate the data access l
 ## Design Patterns Used
 
 - **Repository Pattern**: For data access abstraction
-- **Dependency Injection**: For loose coupling between components
 - **Singleton Pattern**: For managing application state
-- **Factory Pattern**: For object creation when needed
 
 ## Project Structure
 
@@ -100,3 +98,7 @@ This project is created for academic purposes and is not intended for commercial
 ## Author
 
 Lantieri - Tecnicatura en Programación
+
+## Helper
+
+Franco Gomez - Ingeniería en Sistemas
