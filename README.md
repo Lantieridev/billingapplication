@@ -36,7 +36,6 @@ BillingApplication/
 ├── Models/           # Entity classes (Customer, Product, Invoice, etc.)
 ├── Repositories/     # Repository interfaces and implementations
 ├── Services/        # Business logic services
-├── Utilities/       # Helper classes and utilities
 ├── Interfaces/      # Interface definitions
 └── Program.cs       # Application entry point
 ```
