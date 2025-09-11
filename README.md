@@ -100,3 +100,7 @@ This project is created for academic purposes and is not intended for commercial
 ## Author
 
 Lantieri - Tecnicatura en Programación
+
+## Helper
+
+Franco Gomez - Ingeniería en Sistemas
